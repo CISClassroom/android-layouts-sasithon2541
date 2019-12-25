@@ -26,5 +26,10 @@ class MainActivity : AppCompatActivity() {
             val i =Intent(this,ConstrantActivity::class.java)
             startActivity(i)
         }
+
+        button7.setOnClickListener(){
+            val i =Intent(this,Profile::class.java)
+            startActivity(i)
+        }
     }
 }
