@@ -6,6 +6,7 @@
 
 แสดง Control `title` และ `Detail`
 
+![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg)
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -45,7 +46,7 @@
 
 ```xml
 android:layout_below="@id/editText5" //control ให้อยู่ด้านบน editText6
-android:layout_above="@id/editText6" //control ให้อยู่ด้านล่าง editText5 
+android:layout_above="@id/editText6" //control ให้อยู่ด้านล่าง editText5
 ```
 
 ## Linear Layout
@@ -123,7 +124,7 @@ android:layout_above="@id/editText6" //control ให้อยู่ด้าน
 อธิบายความแตกต่างระหว่าง vertical และ horizontal orientation
 
 ```
-Linear Layout เป็น Layout ที่เอาไว้จัดเรียง View ภายใน ซึ่งสามารถเรียงกันไปเรื่อยๆ 
+Linear Layout เป็น Layout ที่เอาไว้จัดเรียง View ภายใน ซึ่งสามารถเรียงกันไปเรื่อยๆ
  - vertical เป็นเส้นตรงจากบนลงล่างเท่านั้น
  - horizontal orientation เป็นเส้นตรงจากซ้ายไปขวาเท่านั้น
 ```
