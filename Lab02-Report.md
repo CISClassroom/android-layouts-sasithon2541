@@ -40,7 +40,7 @@
         android:text="Button" />
 </RelativeLayout>
 ```
-![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg)
+![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/RelativeLayout.jpg)
 
 
 แอดทริบิ้วที่แสดงความสัมพันธ์ระหว่าง control ทั้งสอง
@@ -121,7 +121,7 @@ android:layout_above="@id/editText6" //control ให้อยู่ด้าน
 
 </LinearLayout>
 ```
-![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Linear.jpg)
+![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/LenaerLayout.jpg)
 
 อธิบายความแตกต่างระหว่าง vertical และ horizontal orientation
 
