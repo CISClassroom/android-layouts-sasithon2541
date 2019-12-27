@@ -6,8 +6,9 @@
 
 แสดง Control `title` และ `Detail`
 
-![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg)
 ```xml
+![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg)
+
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
