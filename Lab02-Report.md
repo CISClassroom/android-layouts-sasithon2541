@@ -40,7 +40,8 @@
         android:text="Button" />
 </RelativeLayout>
 ```
-![alt text]("https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg")
+![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg)
+
 
 แอดทริบิ้วที่แสดงความสัมพันธ์ระหว่าง control ทั้งสอง
 
