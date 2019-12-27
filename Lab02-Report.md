@@ -40,11 +40,7 @@
         android:text="Button" />
 </RelativeLayout>
 ```
-
-.. image:: https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg
-   :height: 100px
-   :width: 200 px
-   :scale: 50 %
+<img src = "https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg" height= "250" width = "250" scale: 50 % >
 
 แอดทริบิ้วที่แสดงความสัมพันธ์ระหว่าง control ทั้งสอง
 
