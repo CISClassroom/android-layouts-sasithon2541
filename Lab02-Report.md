@@ -40,7 +40,7 @@
         android:text="Button" />
 </RelativeLayout>
 ```
-![Screenshot]("https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg")
+![alt text]("https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg")
 
 แอดทริบิ้วที่แสดงความสัมพันธ์ระหว่าง control ทั้งสอง
 
@@ -126,16 +126,18 @@ android:layout_above="@id/editText6" //control ให้อยู่ด้าน
 
 ```
 Linear Layout เป็น Layout ที่เอาไว้จัดเรียง View ภายใน ซึ่งสามารถเรียงกันไปเรื่อยๆ
- - vertical เป็นเส้นตรงจากบนลงล่างเท่านั้น
- - horizontal orientation เป็นเส้นตรงจากซ้ายไปขวาเท่านั้น
+ - vertical เลื่อนเป็นเส้นตรงจากบนลงล่างเท่านั้น
+ - horizontal orientation เลื่อนเป็นเส้นตรงจากซ้ายไปขวาเท่านั้น
 ```
 
 ## Constrant Layout
 
 จงออกแบบและสร้างหน้า Constrant layout สำหรับแสดงข้อมูลนักศึกษา ประกอบไปด้วย รูปโปรไฟล์ รูปพื้นหลัง ชื่อ-นามสกุล รหัสนักศึกษา และเกรดเฉลี่ยรวม
 
-![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/constrant.jpg)
+
 ```xml
+![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/constrant.jpg)
+
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
