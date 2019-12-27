@@ -7,8 +7,6 @@
 แสดง Control `title` และ `Detail`
 
 ```xml
-![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg)
-
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -42,6 +40,7 @@
         android:text="Button" />
 </RelativeLayout>
 ```
+![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Relative.jpg)
 
 แอดทริบิ้วที่แสดงความสัมพันธ์ระหว่าง control ทั้งสอง
 
@@ -121,6 +120,7 @@ android:layout_above="@id/editText6" //control ให้อยู่ด้าน
 
 </LinearLayout>
 ```
+![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/Linear.jpg)
 
 อธิบายความแตกต่างระหว่าง vertical และ horizontal orientation
 
@@ -134,6 +134,7 @@ Linear Layout เป็น Layout ที่เอาไว้จัดเรี�
 
 จงออกแบบและสร้างหน้า Constrant layout สำหรับแสดงข้อมูลนักศึกษา ประกอบไปด้วย รูปโปรไฟล์ รูปพื้นหลัง ชื่อ-นามสกุล รหัสนักศึกษา และเกรดเฉลี่ยรวม
 
+![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/constrant.jpg)
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
