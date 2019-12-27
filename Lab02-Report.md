@@ -134,10 +134,9 @@ Linear Layout เป็น Layout ที่เอาไว้จัดเรี�
 
 จงออกแบบและสร้างหน้า Constrant layout สำหรับแสดงข้อมูลนักศึกษา ประกอบไปด้วย รูปโปรไฟล์ รูปพื้นหลัง ชื่อ-นามสกุล รหัสนักศึกษา และเกรดเฉลี่ยรวม
 
-
-```xml
 ![alt text](https://github.com/CISClassroom/android-layouts-sasithon2541/blob/master/app/img/constrant.jpg)
 
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -146,6 +145,12 @@ Linear Layout เป็น Layout ที่เอาไว้จัดเรี�
     android:layout_height="match_parent"
     tools:context=".ConstrantActivity">
 
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ย้อนกลับ" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -161,8 +166,8 @@ Linear Layout เป็น Layout ที่เอาไว้จัดเรี�
         android:layout_height="241dp"
         android:layout_weight="1"
         android:src="@drawable/pro"
-        app:civ_border_color="#FF000000"
-        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -213,7 +218,7 @@ Linear Layout เป็น Layout ที่เอาไว้จัดเรี�
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="GPAX : 3.21"
+            android:text="เกรดเฉลี่ย : 3.21"
             android:textColor="#070303"
             android:textSize="14sp" />
 
